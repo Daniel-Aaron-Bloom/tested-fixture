@@ -1,0 +1,17 @@
+workspace = { members = ["macros"] }
+
+[package]
+name = "tested-fixture"
+version = "1.0.0"
+authors = ["Daniel Bloom"]
+edition = "2018"
+rust-version = "1.69"
+description = "Attribute macro for creating fixtures from tests"
+repository = "https://github.com/Daniel-Aaron-Bloom/tested-fixture"
+license = "MIT"
+keywords = ["test", "fixture"]
+categories = ["development-tools::testing"]
+
+[dependencies]
+once_cell = "1"
+tested-fixture-macros = { path = "./macros" }
