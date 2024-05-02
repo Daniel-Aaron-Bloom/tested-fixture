@@ -14,4 +14,4 @@ categories = ["development-tools::testing"]
 
 [dependencies]
 once_cell = "1"
-tested-fixture-macros = { path = "./macros" }
+tested-fixture-macros = { path = "./macros", version = "1" }
