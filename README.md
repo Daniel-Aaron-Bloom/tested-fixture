@@ -105,7 +105,7 @@ fn step_1() -> Foo {
 
 #[tested_fixture::tested_fixture(STEP_2_STATE)]
 fn step_2() -> State {
-    let state = STEP_1.step_2()
+    let state = STEP_1.step_2();
     // Complicated assertions verify step 2...
     state
 }
