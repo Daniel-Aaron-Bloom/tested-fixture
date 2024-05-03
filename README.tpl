@@ -1,7 +1,6 @@
+# {{crate}}
 [![Crates.io](https://img.shields.io/crates/v/tested-fixture.svg)](https://crates.io/crates/tested-fixture)
 {{badges}}
-
-# {{crate}}
 
 {{readme}}
 
