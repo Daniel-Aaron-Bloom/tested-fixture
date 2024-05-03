@@ -2,11 +2,12 @@ workspace = { members = ["macros"] }
 
 [package]
 name = "tested-fixture"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Daniel Bloom"]
 edition = "2018"
 rust-version = "1.69"
 description = "Attribute macro for creating fixtures from tests"
+documentation = "https://docs.rs/tested-fixture"
 repository = "https://github.com/Daniel-Aaron-Bloom/tested-fixture"
 license = "MIT"
 keywords = ["test", "fixture"]
