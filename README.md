@@ -1,3 +1,6 @@
+[![Crates.io](https://img.shields.io/crates/v/tested-fixture.svg)](https://crates.io/crates/tested-fixture)
+[![Workflow Status](https://github.com/Daniel-Aaron-Bloom/tested-fixture/workflows/main/badge.svg)](https://github.com/Daniel-Aaron-Bloom/tested-fixture/actions?query=workflow%3A%22main%22)
+
 # tested-fixture
 
 Attribute macro for creating fixtures from tests
@@ -105,4 +108,12 @@ types of `Termination`
 
 Right now this crate does not support async tests.
 
-License: MIT
+
+## License
+
+Licensed under 
+* MIT license ([LICENSE](LICENSE) or https://opensource.org/licenses/MIT)
+
+
+[`tested_fixture`]: https://docs.rs/tested-fixture/latest/tested_fixture/attr.tested_fixture.html "attr tested_fixture::tested_fixture"
+[`std::process::Termination`]: https://doc.rust-lang.org/nightly/std/process/trait.Termination.html "trait std::process::Termination"
