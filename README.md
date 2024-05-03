@@ -1,5 +1,5 @@
 [![Crates.io](https://img.shields.io/crates/v/tested-fixture.svg)](https://crates.io/crates/tested-fixture)
-[![Workflow Status](https://github.com/Daniel-Aaron-Bloom/tested-fixture/workflows/main/badge.svg)](https://github.com/Daniel-Aaron-Bloom/tested-fixture/actions?query=workflow%3A%22main%22)
+[![Workflow Status](https://github.com/Daniel-Aaron-Bloom/tested-fixture/workflows/Rust/badge.svg)](https://github.com/Daniel-Aaron-Bloom/tested-fixture/actions?query=workflow%3A%22Rust%22)
 
 # tested-fixture
 
@@ -107,7 +107,6 @@ so up to a fixed depth. Additionally it does not support returning any other
 types of `Termination`
 
 Right now this crate does not support async tests.
-
 
 ## License
 
